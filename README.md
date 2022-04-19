@@ -2,9 +2,15 @@
 ```
 npm install
 ```
+# getir-assignment
 
 ### Run
 ```
 node server.js
 ```
-# getir-assignment
+
+### Test
+
+```
+npm test run
+```
