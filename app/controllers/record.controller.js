@@ -6,7 +6,7 @@ const db = require("../models");
 const Records = db.records;
 const respObj = require("../helper/response.helper")
 
-// Request Validation
+// Request validation middleware
 exports.validate = (req, res, next) => {
 
   req.checkBody('startDate', 'startDate should be datetime').exists();
